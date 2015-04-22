@@ -1,7 +1,7 @@
 Doctrine2 NestedSet
 ===================
 
-This Doctrine2 extension implements the nested set model (modified pre-order
+This Doctrine2 extension implements the nested set model with embedded level for each node (modified pre-order
 tree traversal algorithm) for Doctrine2.  This allows storing hierarchical
 data, a collection of data where each item has a single parent and zero or
 more children, in the flat tables of a relational database. For more

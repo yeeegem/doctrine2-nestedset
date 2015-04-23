@@ -73,4 +73,8 @@ interface Node
      * @param int $rgt
      */
     public function setRightValue($rgt);
+
+    public function getLevelValue($level);
+
+    public function setLevelValue($level);
 }

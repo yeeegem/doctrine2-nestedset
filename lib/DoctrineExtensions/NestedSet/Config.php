@@ -33,6 +33,7 @@ class Config
         $em,
         $classname,
         $classMetadata,
+        $levelFieldName,
         $leftFieldName,
         $rightFieldName,
         $rootFieldName,
@@ -200,6 +201,24 @@ class Config
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getLevelFieldName()
+    {
+        return $this->levelFieldName;
+    }
+
+    /**
+     * @param mixed $levelFieldName
+     *
+     * @return Config $this for fluent API
+     */
+    public function setLevelFieldName($levelFieldName)
+    {
+        $this->levelFieldName = $levelFieldName;
+        return $this;
+    }
 
     /**
      * gets the root field name
@@ -347,7 +366,6 @@ class Config
         $this->hydrateLevel = (bool)$b;
         return $this;
     }
-
 
     /*
      * Returns true if the outline number should be hydrated when fetching

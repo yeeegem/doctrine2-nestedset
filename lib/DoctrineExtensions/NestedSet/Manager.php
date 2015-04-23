@@ -31,7 +31,6 @@ class Manager
     /** @var array */
     protected $wrappers;
 
-
     /**
      * Initializes a new NestedSet Manager.
      *

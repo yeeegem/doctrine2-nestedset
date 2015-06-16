@@ -1,0 +1,27 @@
+
+{
+    "name": "yeeegem/doctrine2-nestedset",
+    "type": "library",
+    "description": "This Doctrine2 extension implements the nested set model (modified pre-order tree traversal algorithm) for Doctrine2. ",
+    "keywords": ["doctrine2", "extentions", "nested set"],
+    "homepage": "https://github.com/yeeegem/doctrine2-nestedset",
+    "license": "GPL 2.1",
+    "authors": [
+        {
+            "name": "Brandon Turner",
+            "homepage": "https://github.com/blt04"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DoctrineExtensions\\NestedSet\\": "lib/DoctrineExtensions/NestedSet/"
+        }
+    },
+    "require-dev": {
+        "doctrine/common": "*"
+    }
+}
+
